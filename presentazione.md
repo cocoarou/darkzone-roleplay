@@ -140,7 +140,7 @@ Al termine di ogni sessione, le schede dei giocatori verranno restituite al mast
 
 ---
 
-## 10. Sistema di gioco
+### 10. Sistema di gioco
 
 ### D&D 3.5
 
