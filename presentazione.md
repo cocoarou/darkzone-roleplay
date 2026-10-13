@@ -1,9 +1,10 @@
 # SKARHEIM
+
 ## L'Eredità di Daven
 
 ---
 
-## 1. Tema della campagna
+### 1. Tema della campagna
 
 **L'Eredità di Daven** è una campagna di gioco di ruolo ambientata nel mondo di **Skarheim**, fortemente ispirata ai miti, alle leggende e all'immaginario norreno.
 
@@ -11,7 +12,7 @@ L'esperienza di gioco combina elementi di **fantasy medievale, horror, survival,
 
 ---
 
-## 2. Dichiarazione d'intenti
+### 2. Dichiarazione d'intenti
 
 Nel corso della campagna verranno affrontati temi e situazioni che potrebbero risultare particolarmente intensi o delicati.
 
@@ -29,7 +30,7 @@ La campagna non mira necessariamente a proporre una visione moralmente netta deg
 
 ---
 
-# 3. Comportamento al tavolo
+### 3. Comportamento al tavolo
 
 Per garantire a tutti un'esperienza piacevole e permettere a ciascun giocatore di vivere appieno il proprio personaggio, è richiesto il rispetto delle seguenti regole:
 
@@ -46,7 +47,7 @@ L'obiettivo di queste regole non è limitare la libertà dei giocatori, ma fare 
 
 ---
 
-# 4. Il ruolo dei giocatori
+### 4. Il ruolo dei giocatori
 
 I giocatori sono parte integrante della storia e avranno un'influenza significativa sull'evoluzione della campagna.
 
@@ -65,7 +66,7 @@ Il personaggio non è semplicemente una scheda composta da numeri e statistiche:
 
 ---
 
-# 5. Il ruolo del master
+### 5. Il ruolo del master
 
 Il master non è un avversario dei giocatori.
 
@@ -83,7 +84,7 @@ Il compito del master è fornire il mondo e reagire alle azioni dei giocatori, n
 
 ---
 
-# 6. Il mondo di Skarheim
+### 6. Il mondo di Skarheim
 
 Skarheim è un mondo **vivo**.
 
@@ -99,7 +100,7 @@ Per questo motivo, è perfettamente normale che la storia di Skarheim non presen
 
 ---
 
-# 7. Interpretazione e gestione delle risorse
+### 7. Interpretazione e gestione delle risorse
 
 Per vivere al meglio l'esperienza, non abbiate paura di interpretare personaggi con caratteristiche, convinzioni o personalità che non vi rispecchiano.
 
@@ -117,7 +118,7 @@ Le risorse, pertanto, non saranno necessariamente infinite o facilmente reperibi
 
 ---
 
-# 8. Combattimento e conflitto
+### 8. Combattimento e conflitto
 
 Gli scontri non rappresentano la parte principale dell'avventura.
 
@@ -133,13 +134,13 @@ Le scelte dei giocatori determineranno, in larga parte, se una situazione sfocer
 
 ---
 
-# 9. Gestione delle schede
+### 9. Gestione delle schede
 
 Al termine di ogni sessione, le schede dei giocatori verranno restituite al master.
 
 ---
 
-# 10. Sistema di gioco
+## 10. Sistema di gioco
 
 ### D&D 3.5
 
@@ -155,7 +156,7 @@ Il sistema di gioco si basa sul **D20 System**.
 
 ---
 
-# 11. Manuali consentiti
+### 11. Manuali consentiti
 
 Sono consentiti tutti i manuali ufficiali creati per:
 
@@ -168,7 +169,7 @@ L'utilizzo di materiale proveniente dai manuali sarà comunque soggetto all'appr
 
 ---
 
-# 12. Occorrente per giocare
+### 12. Occorrente per giocare
 
 Per partecipare alle sessioni sarà necessario avere con sé:
 
@@ -188,7 +189,7 @@ Per partecipare alle sessioni sarà necessario avere con sé:
 
 ---
 
-# 13. Sistema di punti
+### 13. Sistema di punti
 
 Al termine di ogni sessione, ogni giocatore assegnerà **1 punto** alla persona che, secondo la propria opinione, ha interpretato il proprio personaggio nel modo migliore.
 
@@ -196,7 +197,7 @@ Il sistema servirà a determinare una classifica finale basata sulla qualità de
 
 ---
 
-# 14. Costi
+### 14. Costi
 
 I costi previsti per la partecipazione alla campagna saranno:
 
@@ -207,7 +208,7 @@ Al termine della campagna, il totale raccolto verrà convertito in **buoni negoz
 
 ---
 
-# 15. In sintesi
+### 15. In sintesi
 
 **Skarheim è un mondo nel quale le vostre azioni hanno delle conseguenze.**
 
