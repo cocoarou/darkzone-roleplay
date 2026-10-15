@@ -219,3 +219,202 @@ Le vostre decisioni potranno cambiare il mondo, le relazioni con gli altri perso
 Il master fornirà il mondo.
 
 **Voi deciderete cosa farne.**
+
+### 16. Il continente
+
+> **Nota per la presentazione:** la sedicesima slide dovrà includere la [mappa del mondo](resources/mappa-del-mondo.png).
+
+Nel continente sorgono numerose città, ognuna caratterizzata da una propria storia e da un ruolo più o meno rilevante negli avvenimenti che hanno plasmato il mondo.
+
+Tra quelle che, nel corso dei secoli, hanno maggiormente fatto parlare di sé troviamo:
+
+- **Meridion**
+- **Kagen**
+- **Hartak-Kar**
+- **Tar-Kees**
+- **Juvas**
+
+#### Meridion
+
+Meridion nacque come una monarchia assoluta, sotto il dominio della famiglia **Rúnar**. Tutte le città del continente, con l'eccezione di Tar-Kees, erano considerate regni vassalli.
+
+La città divenne celebre per la propria potenza militare e temuta per l'elevato numero di incantatori arcani presenti nei suoi territori.
+
+Circa 300 anni fa, attraverso un complesso gioco di potere, la monarchia della famiglia Rúnar cadde. Al suo posto ascese **Gray**, un vampiro millenario che instaurò un regime tirannico.
+
+Il suo impero durò dieci anni e sconvolse profondamente gli equilibri politici e geografici del mondo.
+
+Fu allora che un gruppo di eroi si fece avanti. Dopo una lunga battaglia, nella quale erano in gioco le sorti dell'intero mondo, gli eroi ebbero la meglio e riuscirono a sconfiggere definitivamente il tiranno.
+
+Per i successivi ottant'anni Meridion rimase una monarchia sotto un regime di reggenza, che lentamente andò incontro al fallimento.
+
+La situazione cambiò quando **Brunilda, la Regina Nera**, prese in mano le redini dell'impero e instaurò un regime neutrale, riportando Meridion agli splendori di un tempo.
+
+Da quando Brunilda è salita al trono sono trascorsi **200 anni**.
+
+#### Kagen
+
+Kagen nacque come l'unica città capace di opporsi a Meridion durante il periodo della monarchia dei Rúnar.
+
+L'antagonismo tra le due città fu alimentato principalmente dalla presenza di numerosi e abili **Vǫlva**, che attraverso le loro divinazioni predissero la fine del mondo per mano degli incantatori arcani.
+
+Fu proprio grazie a queste divinazioni che gli abitanti di Kagen scoprirono, nelle profondità del sottosuolo, delle misteriose gemme viola in grado di annullare qualsiasi capacità magica e qualsiasi incantesimo.
+
+Si narra che gli incantatori morissero ancor prima di riuscire ad avvicinarsi alle pietre.
+
+Circa 300 anni fa, un evento naturale catastrofico colpì Kagen, annientando completamente la città e lasciando un enorme cratere là dove un tempo sorgevano le sue mura.
+
+La leggenda narra, tuttavia, che non si trattò affatto di un evento naturale: secondo alcuni racconti, fu un incantatore dotato di poteri incredibili a scagliare sulla città un incantesimo di distruzione.
+
+Circa 100 anni fa, Kagen iniziò lentamente il proprio processo di ricostruzione.
+
+#### Hartak-Kar
+
+Hartak-Kar nacque per volontà della monarchia dei Rúnar come città satellite di Meridion.
+
+È la città più grande del continente ed è stata storicamente governata da un **Granduca**, nominato direttamente dall'imperatore.
+
+Durante gli anni di assenza del vero imperatore, Hartak-Kar si allontanò progressivamente dal proprio ruolo di città satellite, arrivando a rivendicare la propria indipendenza.
+
+Con l'ascesa di Brunilda, 200 anni fa, Hartak-Kar riconobbe nuovamente la sua autorità, considerandola l'unica e vera imperatrice, e tornò a essere sua sottoposta.
+
+Ai giorni nostri, attraverso una serie di giochi di potere, l'ordinamento politico della città è divenuto una **repubblica**, poiché il dio **San Cuthberth** non riconosce Brunilda come legittima imperatrice.
+
+#### Tar-Kees
+
+Tar-Kees è l'unica città situata oltre la catena montuosa dei **Denti di Drago**.
+
+Nonostante l'avvento delle nuove divinità, la città non ha mai smesso di venerare gli **Dei Antichi** e, di conseguenza, non ha mai abbandonato le proprie antiche usanze.
+
+Tar-Kees è governata da un re, che ancora oggi viene scelto attraverso un combattimento.
+
+La città non si è mai direttamente interessata agli avvenimenti che hanno sconvolto il mondo, rimanendo estranea agli intrighi politici e alle grandi guerre che hanno caratterizzato la storia del continente.
+
+I grandi guerrieri di Tar-Kees, conosciuti come **Kees**, sono celebri per le loro abilità nella navigazione e per la loro tradizione di razziatori.
+
+#### Juvas
+
+Juvas nacque sotto l'impero della monarchia Rúnar come una piccola città situata all'interno di una valle sconfinata.
+
+Nel corso degli anni, la dea **Astrid** fondò la propria chiesa all'interno della città, garantendole la propria protezione.
+
+Da quel momento, Juvas crebbe progressivamente fino a diventare una delle città più importanti e sviluppate del continente, trasformandosi, a tutti gli effetti, in uno dei centri più ricchi del mondo conosciuto.
+
+Juvas non riconosce Brunilda come legittima sovrana a causa delle leggi emanate dalla dea Astrid.
+
+Nonostante ciò, le due potenze non sono attualmente in conflitto.
+
+#### Fazioni importanti
+
+- **Circolo Druidico del Lupo Bianco** — Situato in un luogo sconosciuto, nelle regioni settentrionali.
+- **Circolo Druidico del Cervo** — Situato oltre la catena montuosa dei Denti di Drago.
+- **Circolo Druidico del Corvo** — Situato nelle foreste nei pressi di Hartak-Kar.
+- **La Mano Nera** — Un'organizzazione criminale composta da numerose piccole cellule, presenti in tutte le principali città del continente.
+- **La Legione Perduta** — Uno stuolo di pirati e mercenari privo di qualsiasi affiliazione politica. È un gruppo spietato e assetato di sangue.
+- **I Cavalieri del Vuoto** — Discendenti del primo regno di Kagen. Tramandano di padre in figlio le tradizioni legate all'odio nei confronti della magia arcana.
+- **Le Sciarpe Verdi** — Un'organizzazione secolare composta da spie e infiltratori.
+- **Il Culto dei Gamall** — Un culto nomade degli Dei Antichi. Il suo obiettivo è raccogliere quanti più fedeli possibile e contrastare il culto dei Nuovi Dei.
+
+#### Pantheon
+
+##### I Nuovi Dei
+
+- **Astrid** — Dea del bene, della luce e della vita.
+- **Kelsie** — Dea della natura e degli elementi.
+- **Daven** — Dio della luna, delle ombre e dei sussurri.
+- **San Cuthberth** — Dio della legge.
+- **Brunilda** — Dea della morte.
+- **Grunilda** — Protettrice della natura e figlia di Kelsie.
+
+##### Gli Dei Antichi
+
+- **Thor** — Dio dei fulmini e della guerra.
+- **Odino** — Padre degli Dei.
+- **Freya** — Dea della magia e protettrice di Midgard.
+- **Loki** — Dio delle malefatte e degli inganni.
+- **Hela** — Dea degli inferi e custode di Helheim.
+- **Mimir** — Dio della conoscenza e degli artigiani.
+
+##### Entità divine
+
+- **Heimdall** — Custode di Asgard.
+- **Jörmungandr** — Custode di Yggdrasil.
+- **Fenrir** — Figlio di Loki.
+- **Valchirie** — Custodi dei Nove Regni.
+- **Surtr** — Guardiano di Muspelheim.
+- **Ragnar** — Berserker ed emissario degli Dei.
+- **Beledros** — Capostormo dei draghi verdi.
+- **Ugin** — Capostormo dei draghi rossi.
+- **Volt** — Capostormo dei draghi blu.
+- **Drakonis** — Capostormo dei draghi neri.
+- **Glacius** — Capostormo dei draghi bianchi.
+
+#### All'avventura!
+
+Una volta stabilito, durante la Sessione 0, il luogo dal quale la compagnia inizierà il proprio viaggio, l'avventura prenderà il via con un'introduzione comune a tutti i personaggi.
+
+> **Le grandi potenze tremano.**
+>
+> Per anni, il continente ha conosciuto un fragile equilibrio. Imperi sono caduti, regni sono rinati e gli uomini hanno imparato a convivere con ciò che non potevano comprendere.
+>
+> Ma qualcosa sta cambiando.
+>
+> Nelle città, voci sempre più insistenti parlano di una rivolta contro la **Regina Nera**. Gli intrighi si moltiplicano e ogni scelta potrebbe essere sufficiente a spezzare quel fragile equilibrio e trascinare il mondo verso una nuova guerra.
+>
+> Persino gli Dei hanno iniziato a scegliere da che parte stare.
+>
+> E voi siete nel mezzo di tutto questo.
+>
+> Siete le **Scaglie d'Ossa**, una nuova gilda di mercenari disposta ad accettare qualsiasi incarico: scortare una persona importante, trasportare informazioni, proteggere una spedizione.
+>
+> Lavori semplici.
+>
+> Almeno, così sembrano.
+>
+> Perché nelle ombre qualcosa si è risvegliato.
+>
+> Un antico culto, dimenticato dalla storia, è tornato a camminare sulla terra.
+>
+> Il suo nome è **Vördkyn** — *I Custodi dell'Ultima Voce*.
+>
+> A guidarlo vi è un'antica Valchiria di nome **Yldra**, consumata da un unico desiderio: vendetta contro i Nuovi Dei.
+>
+> E mentre il culto riemerge dalle ombre, la natura stessa sembra ribellarsi.
+>
+> In alcune regioni la vita sta morendo.
+>
+> La terra odora di putrefazione.
+>
+> Le fiamme si spengono, lasciando dietro di sé soltanto braci nere.
+>
+> L'acqua corrompe ciò che tocca.
+>
+> L'aria diventa irrespirabile.
+>
+> E nelle città, sussurrato nelle taverne e nei vicoli, un nome torna a essere pronunciato.
+>
+> **Valakit.**
+>
+> Il figlio maledetto.
+>
+> Nato dall'incesto tra divinità.
+>
+> Una creatura il cui potere, a lungo sopito, sembra finalmente iniziare a destarsi.
+>
+> Nessuno sa cosa accadrà quando aprirà completamente gli occhi.
+>
+> Nessuno sa quali Dei saranno ancora in piedi quando lo farà.
+>
+> Ma una cosa è certa.
+>
+> Il mondo sta cambiando.
+>
+> E le **Scaglie d'Ossa** ne faranno parte.
+>
+> Il lavoro è pericoloso.
+>
+> La paga è misera.
+>
+> Ma questo... lo sapevate già.
+>
+> **Che la fortuna vi assista.**

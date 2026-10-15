@@ -6,11 +6,12 @@ Questo progetto contiene una presentazione introduttiva alla campagna di gioco d
 
 ## Stato attuale
 
-- La presentazione PowerPoint è composta da **15 slide**, in formato panoramico **16:9**.
-- Il file `.pptx` è stato verificato come archivio PowerPoint leggibile, con tutte le 15 slide presenti.
+- La presentazione PowerPoint è composta da **27 slide**, in formato panoramico **16:9**.
+- La presentazione è stata estesa con 12 slide dedicate alla sezione **16. Il continente** del sorgente: mappa, città, fazioni, pantheon e introduzione all'avventura.
+- La mappa [resources/mappa-del-mondo.png](./resources/mappa-del-mondo.png) è incorporata nella slide 16, insieme all'elenco delle città principali.
 - **Non ci sono animazioni** nella versione attuale. In precedenza erano state aggiunte animazioni di comparsa graduale ai riquadri, ma l'utente ha chiesto di rimuoverle perché non erano di suo gradimento. Sono state eliminate e la presentazione è stata verificata nuovamente.
 - Non aggiungere o ripristinare animazioni, salvo richiesta esplicita dell'utente.
-- Il testo sorgente in `presentazione.md` è stato mantenuto separato e non modificato durante la creazione della presentazione.
+- Il testo sorgente in `presentazione.md` è stato mantenuto separato dalla presentazione; la sezione 16 è stata prima aggiunta e formattata nel Markdown, poi integrata nel `.pptx`.
 - `presentazione.pdf` è un PDF preesistente nella cartella; non è stato aggiornato nell'ambito di questo lavoro.
 
 ## Contenuti della presentazione
@@ -31,7 +32,8 @@ La presentazione sintetizza il materiale sorgente nelle seguenti aree:
 12. Manuali ufficiali D&D 3.5 e Pathfinder, soggetti all'approvazione del master.
 13. Occorrente per giocare e set di sette dadi.
 14. Sistema di punti, costi della sala e quota di 1 euro per sessione.
-15. Chiusura: le azioni dei giocatori hanno conseguenze e loro decidono cosa fare del mondo.
+15. Sintesi delle conseguenze delle azioni dei giocatori (ora introduce la sezione sul continente).
+16–27. Mappa del continente, città di Meridion, Kagen, Hartak-Kar, Tar-Kees e Juvas; fazioni; Nuovi Dei, Dei Antichi ed entità divine; introduzione all'avventura in tre slide.
 
 La formulazione delle slide è una sintesi: per verificare dettagli o recuperare il testo completo, fare riferimento a `presentazione.md`.
 
@@ -48,5 +50,6 @@ La formulazione delle slide è una sintesi: per verificare dettagli o recuperare
 - Aprire e modificare il `.pptx` con LibreOffice Impress, preservando il rapporto 16:9 e il tema esistente.
 - Dopo le modifiche, controllare che il testo non esca dai riquadri e che le slide restino leggibili in modalità presentazione.
 - Mantenere coerenti le informazioni con `presentazione.md`; non trasformare gli avvisi sui contenuti o le regole di campagna senza istruzioni dell'utente.
+- La mappa della sezione sul continente va mantenuta nella slide 16.
 - Al momento non è presente uno script di generazione versionato: il `.pptx` è il file editabile da cui proseguire. Il precedente script temporaneo di generazione è stato rimosso.
 - Eseguire una verifica strutturale del file dopo modifiche automatiche, oltre a un controllo visivo con Impress quando disponibile.
