@@ -1,0 +1,52 @@
+# Contesto del progetto: presentazione di Skarheim
+
+## Scopo
+
+Questo progetto contiene una presentazione introduttiva alla campagna di gioco di ruolo **Skarheim — L'Eredità di Daven**, da usare con **LibreOffice Impress**. Il file di riferimento con i contenuti è [presentazione.md](./presentazione.md); la presentazione modificabile è [presentazione.pptx](./presentazione.pptx).
+
+## Stato attuale
+
+- La presentazione PowerPoint è composta da **15 slide**, in formato panoramico **16:9**.
+- Il file `.pptx` è stato verificato come archivio PowerPoint leggibile, con tutte le 15 slide presenti.
+- **Non ci sono animazioni** nella versione attuale. In precedenza erano state aggiunte animazioni di comparsa graduale ai riquadri, ma l'utente ha chiesto di rimuoverle perché non erano di suo gradimento. Sono state eliminate e la presentazione è stata verificata nuovamente.
+- Non aggiungere o ripristinare animazioni, salvo richiesta esplicita dell'utente.
+- Il testo sorgente in `presentazione.md` è stato mantenuto separato e non modificato durante la creazione della presentazione.
+- `presentazione.pdf` è un PDF preesistente nella cartella; non è stato aggiornato nell'ambito di questo lavoro.
+
+## Contenuti della presentazione
+
+La presentazione sintetizza il materiale sorgente nelle seguenti aree:
+
+1. Copertina: Skarheim e L'Eredità di Daven.
+2. Premessa della campagna: fantasy medievale, horror, survival, risorse e intrighi.
+3. Avviso sui temi intensi, compresa la violenza fisica, mentale, sessuale e verbale.
+4. Regole al tavolo: rispetto, turni di parola, partecipazione, scherzi.
+5. Fiducia, salute, decisioni del master e correttezza nei tiri di dado.
+6. Ruolo dei giocatori, interpretazione e background.
+7. Ruolo del master come collaboratore, non avversario.
+8. Skarheim come mondo vivo e reinterpretazione delle leggende.
+9. Interpretazione e gestione delle risorse (1 moneta d'oro = 1 pasto).
+10. Combattimento e possibilità di risolvere i conflitti in altri modi.
+11. Sistema personalizzato D&D 3.5, D20, regole homebrew e power play.
+12. Manuali ufficiali D&D 3.5 e Pathfinder, soggetti all'approvazione del master.
+13. Occorrente per giocare e set di sette dadi.
+14. Sistema di punti, costi della sala e quota di 1 euro per sessione.
+15. Chiusura: le azioni dei giocatori hanno conseguenze e loro decidono cosa fare del mondo.
+
+La formulazione delle slide è una sintesi: per verificare dettagli o recuperare il testo completo, fare riferimento a `presentazione.md`.
+
+## Impostazione visiva
+
+- Tema scuro ispirato al fantasy nordico, con fondo blu-verde molto scuro, riquadri grigio-verdi, testo chiaro e accenti oro, salvia e ruggine.
+- Titoli con carattere serif; testi e intestazioni con carattere sans serif.
+- Riquadri e decorazioni sono elementi editabili del `.pptx`; non sono rasterizzati in immagini.
+- La copertina include una bussola stilizzata composta da forme vettoriali.
+- I riquadri sono statici: la comparsa è immediata e non richiede clic per mostrare i singoli contenuti.
+
+## Note operative per agenti futuri
+
+- Aprire e modificare il `.pptx` con LibreOffice Impress, preservando il rapporto 16:9 e il tema esistente.
+- Dopo le modifiche, controllare che il testo non esca dai riquadri e che le slide restino leggibili in modalità presentazione.
+- Mantenere coerenti le informazioni con `presentazione.md`; non trasformare gli avvisi sui contenuti o le regole di campagna senza istruzioni dell'utente.
+- Al momento non è presente uno script di generazione versionato: il `.pptx` è il file editabile da cui proseguire. Il precedente script temporaneo di generazione è stato rimosso.
+- Eseguire una verifica strutturale del file dopo modifiche automatiche, oltre a un controllo visivo con Impress quando disponibile.
