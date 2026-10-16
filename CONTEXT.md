@@ -13,6 +13,12 @@ Questo progetto contiene una presentazione introduttiva alla campagna di gioco d
 - Non aggiungere o ripristinare animazioni, salvo richiesta esplicita dell'utente.
 - Il testo sorgente in `presentazione.md` è stato mantenuto separato dalla presentazione; la sezione 16 è stata prima aggiunta e formattata nel Markdown, poi integrata nel `.pptx`.
 - `presentazione.pdf` è un PDF preesistente nella cartella; non è stato aggiornato nell'ambito di questo lavoro.
+- Il progetto Kdenlive [avventura-slideshow.kdenlive](./avventura-slideshow.kdenlive) è in profilo 1080p/30 fps. In timeline sono sincronizzati al parlato `ls_1`, `brunilda_1`, `ls_7`, `dummy_4`, `yldra_1`, `ls_8`, `ls_9`, `ls_10`, `valakit_1` e `astrid_1`, con dissolvenze, slow zoom iniziale e fade out finale.
+- Il parlato `resources/audio/avventura.mp3` è l'unico audio presente in timeline (traccia A1). La musica `resources/audio/avventura-doppiata-musica.mp3` e tutte le 19 immagini restano nel raccoglitore; non aggiungere la musica in timeline senza richiesta.
+- La sequenza immagini va mantenuta sincronizzata ai passaggi richiesti: Brunilda prima di «Ma qualcosa sta cambiando», `ls_7` prima di «E voi siete nel mezzo», `dummy_4` prima di «I Custodi dell'Ultima Voce», Yldra prima di «Valchiria», `ls_8–10` da «in alcune regioni la vita sta morendo» fino al passaggio su Valakit, Valakit al suo nome e Astrid prima di «Il mondo sta cambiando».
+- I cambi immagine usano dissolvenze di circa un secondo centrate sulle parole bersaglio; il primo paesaggio ha un lieve zoom progressivo e l'ultima immagine sfuma a nero alla fine del parlato. Mantenere questa impostazione quando si aggiorna il montaggio.
+- La trascrizione locale del parlato è disponibile in [resources/audio/avventura-trascrizione.txt](./resources/audio/avventura-trascrizione.txt) e in [resources/audio/avventura.srt](./resources/audio/avventura.srt), con 22 segmenti temporizzati. Il modello automatico aveva riconosciuto male alcuni termini fantasy; i nomi e le parole evidenti sono stati corretti confrontandoli con il testo dell'introduzione in `presentazione.md`.
+- Durate verificate: parlato circa **2:29,708**; musica circa **2:39,001**. Le durate dei producer sono esplicitate nel progetto Kdenlive.
 
 ## Contenuti della presentazione
 
@@ -52,4 +58,6 @@ La formulazione delle slide è una sintesi: per verificare dettagli o recuperare
 - Mantenere coerenti le informazioni con `presentazione.md`; non trasformare gli avvisi sui contenuti o le regole di campagna senza istruzioni dell'utente.
 - La mappa della sezione sul continente va mantenuta nella slide 16.
 - Al momento non è presente uno script di generazione versionato: il `.pptx` è il file editabile da cui proseguire. Il precedente script temporaneo di generazione è stato rimosso.
+- Nel progetto Kdenlive, conservare la musica nel raccoglitore finché l'utente non ne richiede l'inserimento in timeline; mantenere i riferimenti delle immagini già sincronizzati salvo nuove indicazioni.
+- I tempi dei cambi sono stati stimati sulla trascrizione locale con timestamp parola. Il progetto XML è stato controllato, ma Kdenlive e MLT non sono installati nell'ambiente di lavoro: non dichiarare il rendering o l'apertura nell'applicazione come verificati.
 - Eseguire una verifica strutturale del file dopo modifiche automatiche, oltre a un controllo visivo con Impress quando disponibile.
