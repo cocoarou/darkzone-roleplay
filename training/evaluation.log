@@ -1,0 +1,61 @@
+2026-10-20 20:21:36,187 - INFO - Evaluator initialized
+2026-10-20 20:21:36,187 - INFO - 
+============================================================
+2026-10-20 20:21:36,187 - INFO - 🔍 BRUNILDA LoRA EVALUATION PIPELINE
+2026-10-20 20:21:36,187 - INFO - ============================================================
+2026-10-20 20:21:36,187 - INFO - No checkpoint specified. Scanning for latest checkpoint...
+2026-10-20 20:21:36,188 - INFO - Found: models/brunilda_lora_v1/checkpoint-epoch1
+2026-10-20 20:21:36,188 - INFO - 
+============================================================
+2026-10-20 20:21:36,188 - INFO - 🔍 BRUNILDA LoRA EVALUATION PIPELINE
+2026-10-20 20:21:36,188 - INFO - ============================================================
+2026-10-20 20:21:36,188 - INFO - 
+============================================================
+2026-10-20 20:21:36,188 - INFO - Evaluating checkpoint: models/brunilda_lora_v1/checkpoint-epoch1
+2026-10-20 20:21:36,188 - INFO - ============================================================
+2026-10-20 20:21:36,188 - INFO - 
+============================================================
+2026-10-20 20:21:36,188 - INFO - EVALUATION RESULTS
+2026-10-20 20:21:36,188 - INFO - ============================================================
+2026-10-20 20:21:36,188 - INFO - 
+📊 Combined Quality Score: 0.835/1.0
+2026-10-20 20:21:36,188 - INFO -    Ready for deployment: True
+2026-10-20 20:21:36,188 - INFO - 
+🎯 Quality Levels:
+2026-10-20 20:21:36,188 - INFO -    character_consistency: very_good
+2026-10-20 20:21:36,189 - INFO -    prompt_adherence: good
+2026-10-20 20:21:36,189 - INFO -    temporal_coherence: very_good
+2026-10-20 20:21:36,189 - INFO - 
+💪 Strengths:
+2026-10-20 20:21:36,189 - INFO -    ✅ character_consistency
+2026-10-20 20:21:36,189 - INFO -    ✅ temporal_coherence
+2026-10-20 20:21:36,189 - INFO - 
+🔧 Areas for Improvement:
+2026-10-20 20:21:36,189 - INFO -    (No weak areas identified)
+2026-10-20 20:21:36,189 - INFO - 
+💡 Recommendations:
+2026-10-20 20:21:36,189 - INFO -    ⚠️ Temporal coherence could be better. Increase training epochs or reduce learning rate
+2026-10-20 20:21:36,189 - INFO - 
+Generating test videos...
+2026-10-20 20:21:36,189 - INFO - 
+============================================================
+2026-10-20 20:21:36,189 - INFO - Generating test videos from checkpoint: models/brunilda_lora_v1/checkpoint-epoch1
+2026-10-20 20:21:36,189 - INFO - ============================================================
+2026-10-20 20:21:36,190 - INFO - 
+Generating: regal_gaze
+2026-10-20 20:21:36,190 - INFO -   Prompt: Regal warrior queen Brunilda gazes with fierce determination
+2026-10-20 20:21:36,190 - INFO -   Duration: 10s
+2026-10-20 20:21:36,190 - INFO -   ✅ Generated: logs/evaluations/test_videos_20261020_202136/test_regal_gaze.mp4
+2026-10-20 20:21:36,190 - INFO - 
+Generating: wisdom_ancient
+2026-10-20 20:21:36,190 - INFO -   Prompt: Ancient sorceress Brunilda looks with ancient wisdom and power
+2026-10-20 20:21:36,190 - INFO -   Duration: 10s
+2026-10-20 20:21:36,190 - INFO -   ✅ Generated: logs/evaluations/test_videos_20261020_202136/test_wisdom_ancient.mp4
+2026-10-20 20:21:36,190 - INFO - 
+Generating: dramatic_turn
+2026-10-20 20:21:36,190 - INFO -   Prompt: Brunilda dramatically turns her head toward the viewer
+2026-10-20 20:21:36,190 - INFO -   Duration: 8s
+2026-10-20 20:21:36,190 - INFO -   ✅ Generated: logs/evaluations/test_videos_20261020_202136/test_dramatic_turn.mp4
+2026-10-20 20:21:36,190 - INFO - 
+✅ Test videos saved to: logs/evaluations/test_videos_20261020_202136
+2026-10-20 20:21:36,190 - INFO -    Results: logs/evaluations/test_videos_20261020_202136/test_results.json

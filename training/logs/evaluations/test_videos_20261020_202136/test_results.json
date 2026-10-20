@@ -1,0 +1,24 @@
+{
+  "checkpoint": "models/brunilda_lora_v1/checkpoint-epoch1",
+  "test_date": "2026-10-20T20:21:36.190082",
+  "test_videos": [
+    {
+      "id": "regal_gaze",
+      "prompt": "Regal warrior queen Brunilda gazes with fierce determination",
+      "output_path": "logs/evaluations/test_videos_20261020_202136/test_regal_gaze.mp4",
+      "status": "generated"
+    },
+    {
+      "id": "wisdom_ancient",
+      "prompt": "Ancient sorceress Brunilda looks with ancient wisdom and power",
+      "output_path": "logs/evaluations/test_videos_20261020_202136/test_wisdom_ancient.mp4",
+      "status": "generated"
+    },
+    {
+      "id": "dramatic_turn",
+      "prompt": "Brunilda dramatically turns her head toward the viewer",
+      "output_path": "logs/evaluations/test_videos_20261020_202136/test_dramatic_turn.mp4",
+      "status": "generated"
+    }
+  ]
+}

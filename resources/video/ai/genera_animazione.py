@@ -91,6 +91,11 @@ def parse_args() -> argparse.Namespace:
         help="Also export the loop as an optimized, infinitely looping GIF.",
     )
     parser.add_argument("--ffmpeg", help="FFmpeg executable for loop/GIF post-processing.")
+    parser.add_argument(
+        "--lora",
+        type=str,
+        help="LoRA adapter name to use (e.g., brunilda_lora_v1). Located in training/models/loras/",
+    )
     return parser.parse_args()
 
 
@@ -236,6 +241,18 @@ def main() -> None:
         "sliding_window_size": frame_count,
         "sliding_window_overlap": 1,
     }
+    
+    # Aggiungi LoRA se specificato
+    if args.lora:
+        lora_path = ROOT / "training/models/loras" / args.lora
+        if not lora_path.is_dir():
+            raise SystemExit(f"LoRA not found: {lora_path}")
+        settings["custom_settings"] = {
+            "lora_adapter": str(lora_path),
+            "lora_scale": 1.0
+        }
+        print(f"✅ LoRA loaded: {args.lora}")
+    
     loop_requested = args.loop or args.gif
     ffmpeg = (
         resolve_ffmpeg(args.ffmpeg, install)

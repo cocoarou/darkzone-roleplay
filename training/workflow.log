@@ -1,0 +1,27 @@
+2026-10-20 20:22:04,340 - [INFO] - 🚀 Workflow Orchestrator Initialized
+2026-10-20 20:22:04,340 - [INFO] -    Script dir: /home/l1l/repos/darkzone-roleplay/training/scripts
+2026-10-20 20:22:04,340 - [INFO] -    Config: /home/l1l/repos/darkzone-roleplay/training/scripts/config/train_config.json
+2026-10-20 20:22:04,340 - [ERROR] - Unknown command: --phase
+2026-10-20 20:22:09,084 - [INFO] - 🚀 Workflow Orchestrator Initialized
+2026-10-20 20:22:09,084 - [INFO] -    Script dir: /home/l1l/repos/darkzone-roleplay/training/scripts
+2026-10-20 20:22:09,084 - [INFO] -    Config: /home/l1l/repos/darkzone-roleplay/training/scripts/config/train_config.json
+2026-10-20 20:22:09,085 - [INFO] - 
+======================================================================
+2026-10-20 20:22:09,085 - [INFO] - 🚀 PHASE 4: DEPLOYMENT
+2026-10-20 20:22:09,085 - [INFO] - ======================================================================
+2026-10-20 20:22:09,085 - [ERROR] - No checkpoint found for deployment
+2026-10-20 20:22:34,665 - [INFO] - 🚀 Workflow Orchestrator Initialized
+2026-10-20 20:22:34,665 - [INFO] -    Script dir: /home/l1l/repos/darkzone-roleplay/training/scripts
+2026-10-20 20:22:34,665 - [INFO] -    Config: /home/l1l/repos/darkzone-roleplay/training/scripts/config/train_config.json
+2026-10-20 20:22:34,665 - [INFO] - 
+======================================================================
+2026-10-20 20:22:34,665 - [INFO] - 🚀 PHASE 4: DEPLOYMENT
+2026-10-20 20:22:34,665 - [INFO] - ======================================================================
+2026-10-20 20:22:34,665 - [INFO] - Deploying checkpoint: /home/l1l/repos/darkzone-roleplay/training/models/brunilda_lora_v1/checkpoint-epoch1
+2026-10-20 20:22:34,666 - [INFO] - ✓ Copying LoRA weights
+2026-10-20 20:22:34,666 - [INFO] - ✓ Saving metadata
+2026-10-20 20:22:34,666 - [INFO] - ✓ Creating integration guide
+2026-10-20 20:22:34,667 - [INFO] - 
+✅ Deployment completed!
+2026-10-20 20:22:34,667 - [INFO] -    LoRA location: /home/l1l/repos/darkzone-roleplay/training/models/loras/brunilda_lora_v1
+2026-10-20 20:22:34,667 - [INFO] -    Config: /home/l1l/repos/darkzone-roleplay/training/models/loras/brunilda_lora_v1/integration_config.json

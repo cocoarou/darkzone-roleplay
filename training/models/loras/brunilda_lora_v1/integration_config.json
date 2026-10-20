@@ -1,0 +1,11 @@
+{
+  "lora_name": "brunilda_lora_v1",
+  "base_model": "Wan 2.1 I2V NVFP4",
+  "checkpoint_path": "/home/l1l/repos/darkzone-roleplay/training/models/brunilda_lora_v1/checkpoint-epoch1",
+  "deployment_date": "2026-10-20T20:22:34.666996",
+  "integration": {
+    "method": "automatic",
+    "usage": "python genera_animazione.py --lora brunilda_lora_v1 ...",
+    "lora_scale": 1.0
+  }
+}

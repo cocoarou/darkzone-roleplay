@@ -1,0 +1,67 @@
+{
+  "project_name": "brunilda_animation_lora",
+  "description": "LoRA fine-tuning for Brunilda character animation quality",
+  "model": {
+    "base_model": "Wan 2.1 I2V NVFP4",
+    "model_path": "/mnt/d/ai-videos-workspace/wan-models/ckpts",
+    "lora_rank": 32,
+    "lora_alpha": 32,
+    "lora_target_modules": ["attn", "ffn"],
+    "lora_dropout": 0.05
+  },
+  "training": {
+    "num_epochs": 4,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 1e-4,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "seed": 42,
+    "mixed_precision": "fp16",
+    "gradient_checkpointing": true
+  },
+  "data": {
+    "dataset_dir": "./data/training_set",
+    "train_split": 0.8,
+    "val_split": 0.2,
+    "num_workers": 4,
+    "prefetch_factor": 2,
+    "max_samples": 500
+  },
+  "evaluation": {
+    "eval_steps": 50,
+    "save_steps": 100,
+    "eval_metrics": [
+      "character_consistency",
+      "prompt_adherence",
+      "temporal_coherence",
+      "perceptual_quality"
+    ],
+    "lpips_threshold": 0.15,
+    "consistency_threshold": 0.8
+  },
+  "output": {
+    "output_dir": "./models/brunilda_lora_v1",
+    "save_strategy": "steps",
+    "save_total_limit": 3,
+    "log_dir": "./logs",
+    "tensorboard": true
+  },
+  "hardware": {
+    "gpu_memory_per_device_gb": 12,
+    "num_gpus": 1,
+    "device": "cuda:0",
+    "enable_memory_optimization": true
+  },
+  "inference": {
+    "generation_params": {
+      "num_inference_steps": 8,
+      "guidance_scale": 1.0,
+      "temperature": 1.0,
+      "top_k": 50
+    },
+    "lora_scale": 1.0,
+    "merge_lora_with_base": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-10-20T20:20:16.725756",
+  "dataset_type": "sample_for_framework_testing",
+  "total_pairs": 3,
+  "train_pairs": 2,
+  "val_pairs": 1,
+  "note": "Sample dataset - replace with real video frames for production training"
+}

@@ -1,0 +1,2 @@
+id,input_image,output_image,video_path,prompt,model,duration_seconds,style,character,quality_score,character_consistency,prompt_adherence,temporal_coherence,notes
+brunilda_dramatic_1,/home/l1l/repos/darkzone-roleplay/resources/imgs/characters/brunilda_1.jpeg,/home/l1l/repos/darkzone-roleplay/resources/imgs/characters/brunilda_1.jpeg,sample_video.mp4,Brunilda in dramatic pose turns her head toward the viewer,wangp,8,dramatic,brunilda,5,5,5,5,Sample training pair for framework testing

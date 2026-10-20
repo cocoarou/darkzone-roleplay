@@ -1,0 +1,109 @@
+2026-10-20 20:20:53,050 - __main__ - INFO - Initializing LoRA Trainer...
+2026-10-20 20:20:53,051 - __main__ - INFO - Config loaded: config/train_config.json
+2026-10-20 20:20:53,051 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,051 - __main__ - INFO - 🚀 BRUNILDA LoRA TRAINING PIPELINE
+2026-10-20 20:20:53,051 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,052 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,052 - __main__ - INFO - TRAINING SETUP
+2026-10-20 20:20:53,052 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,052 - __main__ - INFO - Model: Wan 2.1 I2V NVFP4
+2026-10-20 20:20:53,052 - __main__ - INFO - LoRA Rank: 32
+2026-10-20 20:20:53,052 - __main__ - INFO - Learning Rate: 0.0001
+2026-10-20 20:20:53,052 - __main__ - INFO - Batch Size: 1
+2026-10-20 20:20:53,052 - __main__ - INFO - Epochs: 4
+2026-10-20 20:20:53,052 - __main__ - INFO - Mixed Precision: fp16
+2026-10-20 20:20:53,052 - __main__ - INFO - Gradient Checkpointing: True
+2026-10-20 20:20:53,052 - __main__ - INFO - 
+GPU Memory: 12 GB
+2026-10-20 20:20:53,052 - __main__ - INFO - Device: cuda:0
+2026-10-20 20:20:53,052 - __main__ - INFO - Loading dataset...
+2026-10-20 20:20:53,052 - __main__ - INFO - Loaded 2 training samples
+2026-10-20 20:20:53,052 - __main__ - INFO - Loaded 1 validation samples
+2026-10-20 20:20:53,053 - __main__ - INFO - 
+✅ Training setup complete!
+2026-10-20 20:20:53,053 - __main__ - INFO - Loading dataset...
+2026-10-20 20:20:53,053 - __main__ - INFO - Loaded 2 training samples
+2026-10-20 20:20:53,053 - __main__ - INFO - Loaded 1 validation samples
+2026-10-20 20:20:53,053 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,053 - __main__ - INFO - Epoch 1/4
+2026-10-20 20:20:53,053 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,053 - __main__ - INFO - Batch 1/2 | Loss: 0.1500 | Processed: 1/2
+2026-10-20 20:20:53,053 - __main__ - INFO - 
+Epoch 1 Summary:
+2026-10-20 20:20:53,053 - __main__ - INFO -   Avg Loss: 0.1495
+2026-10-20 20:20:53,053 - __main__ - INFO -   Avg Char Consistency Loss: 0.0998
+2026-10-20 20:20:53,053 - __main__ - INFO -   Samples processed: 2
+2026-10-20 20:20:53,053 - __main__ - INFO - 
+Validating on 1 samples...
+2026-10-20 20:20:53,053 - __main__ - INFO - 
+Validation Results:
+2026-10-20 20:20:53,054 - __main__ - INFO -   Val Loss: 0.1200
+2026-10-20 20:20:53,054 - __main__ - INFO -   Character Consistency: 0.850
+2026-10-20 20:20:53,054 - __main__ - INFO -   Prompt Adherence: 0.780
+2026-10-20 20:20:53,054 - __main__ - INFO -   Temporal Coherence: 0.820
+2026-10-20 20:20:53,055 - __main__ - INFO - ✅ Checkpoint saved: models/brunilda_lora_v1/checkpoint-epoch1
+2026-10-20 20:20:53,055 - __main__ - INFO - 🎯 New best model! Val loss: 0.1200
+2026-10-20 20:20:53,055 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,055 - __main__ - INFO - Epoch 2/4
+2026-10-20 20:20:53,055 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,055 - __main__ - INFO - Batch 1/2 | Loss: 0.1500 | Processed: 1/2
+2026-10-20 20:20:53,055 - __main__ - INFO - 
+Epoch 2 Summary:
+2026-10-20 20:20:53,055 - __main__ - INFO -   Avg Loss: 0.1495
+2026-10-20 20:20:53,055 - __main__ - INFO -   Avg Char Consistency Loss: 0.0998
+2026-10-20 20:20:53,055 - __main__ - INFO -   Samples processed: 2
+2026-10-20 20:20:53,055 - __main__ - INFO - 
+Validating on 1 samples...
+2026-10-20 20:20:53,055 - __main__ - INFO - 
+Validation Results:
+2026-10-20 20:20:53,055 - __main__ - INFO -   Val Loss: 0.1200
+2026-10-20 20:20:53,055 - __main__ - INFO -   Character Consistency: 0.850
+2026-10-20 20:20:53,055 - __main__ - INFO -   Prompt Adherence: 0.780
+2026-10-20 20:20:53,055 - __main__ - INFO -   Temporal Coherence: 0.820
+2026-10-20 20:20:53,056 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,056 - __main__ - INFO - Epoch 3/4
+2026-10-20 20:20:53,056 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,056 - __main__ - INFO - Batch 1/2 | Loss: 0.1500 | Processed: 1/2
+2026-10-20 20:20:53,056 - __main__ - INFO - 
+Epoch 3 Summary:
+2026-10-20 20:20:53,056 - __main__ - INFO -   Avg Loss: 0.1495
+2026-10-20 20:20:53,056 - __main__ - INFO -   Avg Char Consistency Loss: 0.0998
+2026-10-20 20:20:53,056 - __main__ - INFO -   Samples processed: 2
+2026-10-20 20:20:53,056 - __main__ - INFO - 
+Validating on 1 samples...
+2026-10-20 20:20:53,056 - __main__ - INFO - 
+Validation Results:
+2026-10-20 20:20:53,056 - __main__ - INFO -   Val Loss: 0.1200
+2026-10-20 20:20:53,056 - __main__ - INFO -   Character Consistency: 0.850
+2026-10-20 20:20:53,056 - __main__ - INFO -   Prompt Adherence: 0.780
+2026-10-20 20:20:53,056 - __main__ - INFO -   Temporal Coherence: 0.820
+2026-10-20 20:20:53,056 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,056 - __main__ - INFO - Epoch 4/4
+2026-10-20 20:20:53,056 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,056 - __main__ - INFO - Batch 1/2 | Loss: 0.1500 | Processed: 1/2
+2026-10-20 20:20:53,056 - __main__ - INFO - 
+Epoch 4 Summary:
+2026-10-20 20:20:53,057 - __main__ - INFO -   Avg Loss: 0.1495
+2026-10-20 20:20:53,057 - __main__ - INFO -   Avg Char Consistency Loss: 0.0998
+2026-10-20 20:20:53,057 - __main__ - INFO -   Samples processed: 2
+2026-10-20 20:20:53,057 - __main__ - INFO - 
+Validating on 1 samples...
+2026-10-20 20:20:53,057 - __main__ - INFO - 
+Validation Results:
+2026-10-20 20:20:53,057 - __main__ - INFO -   Val Loss: 0.1200
+2026-10-20 20:20:53,057 - __main__ - INFO -   Character Consistency: 0.850
+2026-10-20 20:20:53,057 - __main__ - INFO -   Prompt Adherence: 0.780
+2026-10-20 20:20:53,057 - __main__ - INFO -   Temporal Coherence: 0.820
+2026-10-20 20:20:53,057 - __main__ - INFO - State saved: logs/training_state_20261020_202053.json
+2026-10-20 20:20:53,057 - __main__ - INFO - 
+============================================================
+2026-10-20 20:20:53,057 - __main__ - INFO - ✅ TRAINING COMPLETE!
+2026-10-20 20:20:53,057 - __main__ - INFO - ============================================================
+2026-10-20 20:20:53,057 - __main__ - INFO - Best checkpoint: models/brunilda_lora_v1/checkpoint-epoch1
+2026-10-20 20:20:53,057 - __main__ - INFO - Total time: 0:00:00
