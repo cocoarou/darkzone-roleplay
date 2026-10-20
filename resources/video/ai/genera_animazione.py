@@ -94,18 +94,41 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def resolve_ffmpeg(requested: str | None) -> str:
+def resolve_ffmpeg(requested: str | None, install: Path) -> str:
     if requested:
         return requested
     ffmpeg = shutil.which("ffmpeg")
-    if not ffmpeg:
-        raise SystemExit(
-            "FFmpeg was not found. Install FFmpeg or pass --ffmpeg /path/to/ffmpeg."
-        )
-    return ffmpeg
+    if ffmpeg:
+        return ffmpeg
+    bundled_ffmpeg = install / "ffmpeg_bins/ffmpeg"
+    if bundled_ffmpeg.is_file():
+        return str(bundled_ffmpeg)
+    raise SystemExit(
+        "FFmpeg was not found. Install FFmpeg or pass --ffmpeg /path/to/ffmpeg."
+    )
 
 
-def create_loop(ffmpeg: str, source: Path, destination: Path, frame_count: int) -> None:
+def ffmpeg_environment(ffmpeg: str) -> dict[str, str] | None:
+    executable = shutil.which(ffmpeg) or ffmpeg
+    library_dir = Path(executable).expanduser().resolve().parent
+    if not any(library_dir.glob("libavcodec.so*")):
+        return None
+
+    environment = os.environ.copy()
+    library_path = environment.get("LD_LIBRARY_PATH")
+    environment["LD_LIBRARY_PATH"] = os.pathsep.join(
+        path for path in (str(library_dir), library_path) if path
+    )
+    return environment
+
+
+def create_loop(
+    ffmpeg: str,
+    source: Path,
+    destination: Path,
+    frame_count: int,
+    environment: dict[str, str] | None,
+) -> None:
     reverse_end = frame_count - 1
     filter_complex = (
         f"[0:v]split=2[forward][reverse];"
@@ -139,10 +162,16 @@ def create_loop(ffmpeg: str, source: Path, destination: Path, frame_count: int) 
             str(destination),
         ],
         check=True,
+        env=environment,
     )
 
 
-def create_gif(ffmpeg: str, source: Path, destination: Path) -> None:
+def create_gif(
+    ffmpeg: str,
+    source: Path,
+    destination: Path,
+    environment: dict[str, str] | None,
+) -> None:
     filter_complex = (
         f"[0:v]fps={GIF_FPS},scale={GIF_WIDTH}:-1:flags=lanczos,split[gif][palette];"
         f"[palette]palettegen=max_colors={GIF_COLORS}:stats_mode=diff[colors];"
@@ -164,6 +193,7 @@ def create_gif(ffmpeg: str, source: Path, destination: Path) -> None:
             str(destination),
         ],
         check=True,
+        env=environment,
     )
 
 
@@ -208,10 +238,11 @@ def main() -> None:
     }
     loop_requested = args.loop or args.gif
     ffmpeg = (
-        resolve_ffmpeg(args.ffmpeg)
+        resolve_ffmpeg(args.ffmpeg, install)
         if loop_requested and not args.dry_run
         else None
     )
+    ffmpeg_env = ffmpeg_environment(ffmpeg) if ffmpeg else None
     if args.output:
         destination = args.output.expanduser().resolve()
     else:
@@ -253,11 +284,11 @@ def main() -> None:
         if ffmpeg is None:
             raise SystemExit("FFmpeg is required to create a loop or GIF.")
         loop_path = destination.with_name(f"{destination.stem}-loop.mp4")
-        create_loop(ffmpeg, destination, loop_path, frame_count)
+        create_loop(ffmpeg, destination, loop_path, frame_count, ffmpeg_env)
         print(f"Loop MP4 salvato in: {loop_path}")
         if args.gif:
             gif_path = destination.with_name(f"{destination.stem}-loop.gif")
-            create_gif(ffmpeg, loop_path, gif_path)
+            create_gif(ffmpeg, loop_path, gif_path, ffmpeg_env)
             print(f"GIF salvata in: {gif_path}")
 
 

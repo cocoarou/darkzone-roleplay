@@ -10,17 +10,23 @@ cloud e non e necessario avviare l'app Electron di Open Generative AI.
 - Video finiti: `output/video/`
 - Slideshow: `output/video/slideshow/`
 - Animazioni AI: `output/video/ai/`
-- WanGP, ambiente Python e pesi del modello: `~/.local/share/darkzone-roleplay/WanGP/`
+- WanGP e ambiente Python: `~/.local/share/darkzone-roleplay/WanGP/`
+- Pesi WanGP: `D:\ai-videos-workspace\wan-models\ckpts` (da WSL: `/mnt/d/ai-videos-workspace/wan-models/ckpts`), raggiunti tramite il link `WanGP/ckpts`
+- Modelli LTX Desktop: `D:\ai-videos-workspace\ltx-models` (da WSL: `/mnt/d/ai-videos-workspace/ltx-models`)
+- Video del progetto: `D:\ai-videos-workspace\project-output\video` (da WSL: `/mnt/d/ai-videos-workspace/project-output/video`)
 
-I video generati sono esclusi da Git. I file di input restano sotto `resources/audio/`
-e `resources/imgs/`.
+I video generati sono esclusi da Git. In WSL, `output/video/` punta alla cartella
+sull'unita D: tramite un collegamento simbolico: gli script esistenti continuano a
+usare gli stessi percorsi. L'unita D: deve essere disponibile in WSL come `/mnt/d`.
+I file di input restano sotto `resources/audio/` e `resources/imgs/`.
 
 ## Requisiti
 
 - Linux/WSL2 con GPU NVIDIA e driver CUDA funzionanti.
-- WanGP configurato con l'ambiente Python `env_uv` e il modello
-  `i2v_nvfp4` gia presente nella cartella `ckpts`.
-- Circa 28 GB di spazio per l'ambiente locale e i modelli.
+- WanGP configurato con l'ambiente Python `env_uv`; i checkpoint del modello
+  `i2v_nvfp4` sono nella cartella su D: collegata a `WanGP/ckpts`.
+- Circa 8 GB di spazio nel filesystem Linux per l'ambiente WanGP; i checkpoint
+  occupano circa 19 GB sull'unita D:.
 
 La prima installazione richiede una connessione per scaricare i sorgenti, le dipendenze
 e i pesi. Dopo averli scaricati, la generazione descritta qui funziona localmente e
@@ -29,6 +35,12 @@ usa direttamente il suo backend locale WanGP, gia installato.
 
 Se l'installazione WanGP si trova altrove, passa `--wan2gp-dir /percorso/WanGP`, oppure
 imposta la variabile `WAN2GP_DIR`.
+
+LTX Desktop usa la directory modelli configurata nelle sue impostazioni, impostata
+su `/mnt/d/ai-videos-workspace/ltx-models` per risparmiare spazio sull'unita di sistema.
+L'app e gli ambienti Python restano nel filesystem Linux WSL; i checkpoint WanGP
+risiedono su D: e sono accessibili dal percorso abituale tramite un collegamento
+simbolico. D: deve essere montato in WSL come `/mnt/d` per avviare le generazioni.
 
 ## Generare una clip
 
@@ -74,7 +86,9 @@ secondi.
 
 Per una prova piu rapida, si puo specificare `--seconds 5`. `--loop` crea solo l'MP4
 in loop; aggiungere `--gif` produce anche la GIF. L'opzione `--gif` implica
-automaticamente `--loop`.
+automaticamente `--loop`. Per l'elaborazione viene usato FFmpeg dal `PATH`; se non e
+disponibile, lo script usa quello incluso in WanGP. Per specificare un eseguibile
+diverso, passare `--ffmpeg /percorso/ffmpeg`.
 
 ### Loop rallentati senza inversione
 
@@ -96,7 +110,8 @@ python3 resources/video/ai/crea_loop_avanti.py \
 La dissolvenza evita l'inversione ma sovrappone brevemente la fine e l'inizio della
 scena: gli elementi in movimento possono risultare sfumati durante il raccordo.
 `--slowdown` e `--cycles` consentono di regolare il rallentamento e la frequenza dei
-raccordi. Questa modalità richiede FFmpeg e Pillow.
+raccordi. Questa modalità richiede FFmpeg e Pillow; FFmpeg deve essere nel `PATH` o
+indicato con `--ffmpeg`.
 
 Prima di avviare il render, si possono controllare installazione e impostazioni senza
 generare il video. Anche il limite massimo a finestra singola e controllato:
@@ -113,8 +128,8 @@ diverso senza modificare lo script, aggiungi `--prompt "descrizione del moviment
 se serve, `--negative-prompt "movimenti da evitare"`. Per rendere il risultato
 ripetibile si puo impostare un seed con `--seed 12345`. Un render di 5 secondi puo
 richiedere alcuni minuti; il massimo di 16 secondi puo richiedere diversi minuti in
-piu. Le trasformazioni MP4/GIF richiedono anche FFmpeg (`--ffmpeg /percorso/ffmpeg`
-se non e nel `PATH`).
+piu. Per i loop e le GIF, FFmpeg viene cercato nel `PATH` e poi nella cartella WanGP;
+in alternativa si puo passare `--ffmpeg /percorso/ffmpeg`.
 
 ## Limite delle clip lunghe
 
